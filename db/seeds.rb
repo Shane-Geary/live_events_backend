@@ -9,3 +9,5 @@
 concert = Category.create(name: "Concert")
 sport_event = Category.create(name: "Sport Event")
 theatre = Category.create(name: "Theatre")
+
+Ticket.create(title: "Evolution Tour", date: "March 3rd", main_act: "Excision", category_id: concert.id)
