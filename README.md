@@ -1,9 +1,10 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+**Accidently made 'master' branch the 'main' branch
 
-Things you may want to cover:
+Ruby version: '2.6.1' 
+
+Languages: HTML, CSS, Javscript, ActiveRecord, Ruby On Rails
 
 * Ruby version
 
