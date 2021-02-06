@@ -1,7 +1,10 @@
 class Api::V1::TicketsController < ApplicationController
     def index
         tickets = Ticket.all
-        render json: tickets 
+        # options = {
+        #     include: [:category]
+        # }
+        render json: TicketSerializer.new(tickets) 
     end
 
     def create 
@@ -14,6 +17,7 @@ class Api::V1::TicketsController < ApplicationController
     end
 
     private 
+
     def ticket_params
         params.require(:ticket).permit(:title, :date, :main_act, :category_id)
     end
