@@ -27,7 +27,7 @@ ActiveRecord::Schema.define(version: 2021_02_05_230037) do
     t.string "main_act"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.bigint "category_id"
+    t.bigint "category_id", null: false
     t.index ["category_id"], name: "index_tickets_on_category_id"
   end
 
