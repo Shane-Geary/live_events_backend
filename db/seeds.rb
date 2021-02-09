@@ -5,6 +5,9 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+Category.destroy_all
+Ticket.destroy_all
+
 
 concert = Category.create(name: "Concert")
 sport_event = Category.create(name: "Sport Event")
