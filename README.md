@@ -1,25 +1,15 @@
 # README
 
+JavaScript Project: Live Events
+
 **Accidently made 'master' branch the 'main' branch
 
 Ruby version: '2.6.1' 
 
 Languages: HTML, CSS, Javscript, ActiveRecord, Ruby On Rails
 
-* Ruby version
+backend repo: https://github.com/ShaneG25/live_events_backend/tree/master 
 
-* System dependencies
+frontend repo: https://github.com/ShaneG25/live-events-frontend
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+User Story: A user can create and read tickets of live events
